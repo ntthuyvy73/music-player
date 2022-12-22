@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./assets/fonts/Poppins/stylesheet.css" />
+
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <div class="player">
+            <!-- dashboard -->
+            <div class="dashboard">
+                <header class="header">
+                    <h4>Now playing:</h4>
+                    <h2>Click Pow Get Down</h2>
+                </header>
+
+                <!-- CD -->
+                <div class="cd">
+                    <div class="cd-thumb"></div>
+                </div>
+                <!-- end cd -->
+
+                <!-- control -->
+                <div class="control">
+                    <a href="" class="btn btn-download">
+                        <i class="fas fa-download"></i>
+                    </a>
+
+                    <div class="btn btn-repeat">
+                        <i class="fas fa-redo"></i>
+                    </div>
+
+                    <div class="btn btn-pre">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+
+                    <div class="btn btn-toggle-play">
+                        <i class="fas fa-pause icon-pause"></i>
+                        <i class="fas fa-play icon-play"></i>
+                    </div>
+
+                    <div class="btn btn-next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+
+                    <div class="btn btn-random">
+                        <i class="fas fa-random"></i>
+                    </div>
+
+                    <!-- volume -->
+                    <div class="volume">
+                        <div class="btn btn-mute">
+                            <i class="fa fa-volume-high icon-unmute"></i>
+                            <i class="fa fa-volume-xmark icon-mute"></i>
+                        </div>
+                        <div>
+                            <input type="range" class="volume_range hide" />
+                        </div>
+                    </div>
+                    <!-- end volume -->
+                </div>
+                <!-- end control -->
+
+                <!-- progress -->
+                <div class="progress_body">
+                    <input
+                        type="range"
+                        class="progress"
+                        id="progress"
+                        value="0"
+                        min="0"
+                        max="100"
+                    />
+                    <div class="music_track"></div>
+                </div>
+                <!--end progress -->
+
+                <!-- timer -->
+                <div class="time-song_body">
+                    <p class="time-song-start"></p>
+                    <p class="time-song-end"></p>
+                </div>
+                <!--end timer -->
+
+                <audio id="audio" src=""></audio>
+            </div>
+            <!-- end dashboard -->
+
+            <!-- playlist -->
+            <div class="playlist">
+                <!-- <div class="song">
+                    <img class="thumb" src="./assets/img/img-1.jpg" alt="" />
+
+                    <div class="body">
+                        <h4 class="title">Click Pow Get Down</h4>
+                        <p class="author">Raftaar x Fortnite</p>
+                    </div>
+
+                    <span class="option"><i class="fa fa-ellipsis-h"></i></span>
+                </div> -->
+            </div>
+            <!-- end playlist -->
+        </div>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
