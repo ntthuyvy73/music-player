@@ -17,70 +17,70 @@ const app = {
         {
             name: "Đế vương",
             singer: "Đình Dũng",
-            path: "../assets/music/DeVuong.mp3",
-            image: "../assets/img/img-1.jpg",
+            path: "./assets/music/DeVuong.mp3",
+            image: "./assets/img/img-1.jpg",
         },
 
         {
             name: "Nàng thơ",
             singer: "Hoàng Dũng",
-            path: "../assets/music/NangTho.mp3",
-            image: "../assets/img/img-2.jpg",
+            path: "./assets/music/NangTho.mp3",
+            image: "./assets/img/img-2.jpg",
         },
 
         {
             name: "Người lạ ơi",
             singer: "Karik",
-            path: "../assets/music/NguoiLaOi.mp3",
-            image: "../assets/img/img-3.jpg",
+            path: "./assets/music/NguoiLaOi.mp3",
+            image: "./assets/img/img-3.jpg",
         },
 
         {
             name: "Nothings Gonna Change My Love For You",
             singer: "Hòa tấu",
-            path: "../assets/music/NothingsGonnaChangeMyLoveForYou.mp3",
-            image: "../assets/img/img-4.jpg",
+            path: "./assets/music/NothingsGonnaChangeMyLoveForYou.mp3",
+            image: "./assets/img/img-4.jpg",
         },
 
         {
             name: "River Flows In You",
             singer: "Hòa tấu",
-            path: "../assets/music/RiverFlowsInYou.mp3",
-            image: "../assets/img/img-5.jpg",
+            path: "./assets/music/RiverFlowsInYou.mp3",
+            image: "./assets/img/img-5.jpg",
         },
         {
             name: "Đế vương",
             singer: "Đình Dũng",
-            path: "../assets/music/DeVuong.mp3",
-            image: "../assets/img/img-1.jpg",
+            path: "./assets/music/DeVuong.mp3",
+            image: "./assets/img/img-1.jpg",
         },
 
         {
             name: "Nàng thơ",
             singer: "Hoàng Dũng",
-            path: "../assets/music/NangTho.mp3",
-            image: "../assets/img/img-2.jpg",
+            path: "./assets/music/NangTho.mp3",
+            image: "./assets/img/img-2.jpg",
         },
 
         {
             name: "Người lạ ơi",
             singer: "Karik",
-            path: "../assets/music/NguoiLaOi.mp3",
-            image: "../assets/img/img-3.jpg",
+            path: "./assets/music/NguoiLaOi.mp3",
+            image: "./assets/img/img-3.jpg",
         },
 
         {
             name: "Nothings Gonna Change My Love For You",
             singer: "Hòa tấu",
-            path: "../assets/music/NothingsGonnaChangeMyLoveForYou.mp3",
-            image: "../assets/img/img-4.jpg",
+            path: "./assets/music/NothingsGonnaChangeMyLoveForYou.mp3",
+            image: "./assets/img/img-4.jpg",
         },
 
         {
             name: "River Flows In You",
             singer: "Hòa tấu",
-            path: "../assets/music/RiverFlowsInYou.mp3",
-            image: "../assets/img/img-5.jpg",
+            path: "./assets/music/RiverFlowsInYou.mp3",
+            image: "./assets/img/img-5.jpg",
         },
     ],
     setConfig: function (key, value) {
